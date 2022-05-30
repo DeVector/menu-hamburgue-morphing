@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Projects</title>
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../about/about.html">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="./projects.html">Projetos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h1>Projetos</h1>
+        <h2>Projetos desenvolvidos</h2>
+        <div class="social-media">
+            <a target="_blank" href="https://www.linkedin.com/in/victor-oliveira-469b14125/">Linkedin</a>
+            <a target="_blank" href="https://github.com/DeVector">Github</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card-container">
+            <div class="card-text">
+                Meu primeiro projeto completo foi feito com angular e spring boot. Ele tinha como principal objetivo cadastro e listagem de empresas da bolsa de valores.
+                <br />Para o back-end utilizei spring boot com a linguagem Java, docker para rodar o postgres e como dependências utilizei o maven repository, nele tinha apenas uma classe principal que era o stock, porém o projeto tinha como um intuito principal realizar o CRUD de stock&#40;estoque&#41; que eram para saber quais estariam disponíveis no dia e qual seu valor. 
+            </div>
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Bolsa de valores</h2>
+                    <p>CRUD de quais empresas estariam disponíveis para compra</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="card-wrapper">
+                <h2>Help Desk</h2>
+                <p>Um projeto de sistema para help desk</p>
+            </div>
+        </div>
+        <div class="card-text">
+            Esse sistema está sendo criado com spring boot com a linguagem java com banco de dados postgres e para front angular.
+            <br />Nele estou aprendendo conceitos de segurança e controle de acesso, assim fazendo que nem todos os usuários possuam o mesmo controle do sistema, criando prioridades de entregas e status do andamento do serviço que está sendo feito.
+            <br />Com o uso do angular estou aprendendo o uso das chaves de acesso com jwt e como utilizar o Angular Material para facilitar no design das páginas e criando elas de modo mais dinâmico.
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card-text">
+            Este sistema tem como intuito principal realizar o encurtamento de URL padrão para uma URL encurtada.
+            <br />Neste projeto foi desenvolvido com o intuito de aprender mais sobre o spring security e a parte de autenticação de usuários, porém todos os usuários têm o mesmo direito no sistema nenhum possui restrição. Nele foi feito o CRUD apenas de URL, os usuários ja estavam cadastrados no sistema. Nele pude aprender um pouco mais também como realizar a geração de um código aleatório com a dependência do guava disponibilizada pelo google que faz essa geração do código.
+            <br />Este sistema foi feito com spring boot, java, dependências maven, docker com postgres e angular.
+        </div>
+        <div class="card">
+            <div class="card-wrapper">
+                <h2>Encurtado</h2>
+                <p>Encurtador de URL</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        Feito por Victor Oliveira com apoio de Gabriela Pinheiro 
+    </footer>
+</body>
+</html>
