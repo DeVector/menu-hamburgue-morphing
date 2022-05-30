@@ -3,4 +3,4 @@ Este projeto teve o intuito de aprendizagem de como fazer interações apenas ut
 a necessidade de utilizar o javascript.
 ## Conceitos CSS
 Este projeto foi feito com apoio da professora [Gabriela Pinheiro](https://github.com/SpruceGabriela) que realizou a implementação e explicou
-sobre @keyframes e formas de se utilizar de melhi=or forma o CSS para criar estilos e os propios menus.
+sobre @keyframes e formas de se utilizar de melhor forma o CSS para criar estilos e os propios menus.
